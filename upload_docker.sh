@@ -6,10 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-
+dockerpath=mpizos/udaappdock
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker tag udaappdock mpizos/udaappdock
 
 # Step 3:
 # Push image to a docker repository
+docker login --username=mpizos
+docker push mpizos/udaappdock
