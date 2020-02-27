@@ -1,4 +1,6 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/mpizosdim/udadevops.svg?style=svg&circle-token=f2f882aba4e91699874999718d72272738790260)](https://circleci.com/gh/mpizosdim/udadevops.svg)
+
+
 
 ## Project Overview
 
